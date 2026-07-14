@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="760" height="470" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="380" y="27" fill="#8b949e" text-anchor="middle" font-size="12">keysweep — every private key and certificate on disk</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> keysweep scan ~/work</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">keysweep scan</tspan> — ~/work</text>
+    <text x="24" y="112" fill="#8b949e">files scanned: 4188 · findings: 13</text>
+    <text x="24" y="146" fill="#d2a8ff">PRIVATE KEYS (7)</text>
+    <text x="24" y="168" fill="#8b949e">  PATH                  ALGO     BITS  PROTECTION                    PERMS</text>
+    <text x="24" y="190">  deploy/.env:5         ed25519   256  <tspan fill="#f85149">plaintext</tspan>                     0600</text>
+    <text x="24" y="212">  legacy/server.key     rsa      2048  <tspan fill="#f85149">plaintext</tspan>                     <tspan fill="#f85149">0644 !</tspan></text>
+    <text x="24" y="234">  ssh/id_ed25519        ed25519   256  <tspan fill="#f85149">plaintext</tspan>                     0600</text>
+    <text x="24" y="256">  ssh/id_rsa            rsa      3072  <tspan fill="#7ee787">encrypted aes256-ctr</tspan>          0600</text>
+    <text x="24" y="278">  ssh/putty.ppk         rsa      3072  <tspan fill="#7ee787">encrypted aes256-cbc</tspan>          0600</text>
+    <text x="24" y="312" fill="#d2a8ff">CERTIFICATES (3)</text>
+    <text x="24" y="334">  pki/fullchain.pem     server.example.test   2036-01-01  <tspan fill="#7ee787">ok (3458d)</tspan></text>
+    <text x="24" y="356">  pki/old.crt           old.example.test      2025-01-01  <tspan fill="#f85149">EXPIRED 558d ago</tspan></text>
+    <text x="24" y="390" fill="#d2a8ff">SUMMARY</text>
+    <text x="24" y="412">  private keys : 7 (<tspan fill="#f85149">4 plaintext</tspan>, 3 encrypted; <tspan fill="#f85149">2 with loose permissions</tspan>)</text>
+    <text x="24" y="434">  certificates : 3 (<tspan fill="#f85149">1 expired</tspan>)</text>
+  </g>
+</svg>
